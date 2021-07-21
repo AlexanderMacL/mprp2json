@@ -1,0 +1,49 @@
+{
+  "Type": "MPR profile",
+  "Name": "JSON example",
+  "contactLength": 1.000,
+  "Steps": [
+    {
+      "stepType": "Fatigue",
+      "stepName": "Fatigue Step",
+      "tempCtrlEn": true,
+      "waitForTempBeforeStep": true,
+      "idleSpeed": 1000,
+      "idleSRR": 0,
+      "idleLoad": 0,
+      "coolerEn": true,
+      "stepDurationSeconds": 60,
+      "logData": true,
+      "logDataIntervalSeconds": 10,
+      "startTemp": 60,
+      "endTemp": 60,
+      "startLoad": 200,
+      "endLoad": 200,
+      "startSpeed": 1000,
+      "endSpeed": 1000,
+      "startSRR": -10,
+      "endSRR": -10,
+      "highTempTripEn": false,
+      "highTempTrip": 0,
+      "tractionTripEn": false,
+      "tractionTrip": 0,
+      "CLAaccelTripEn": false,
+      "CLAaccelTrip": 0,
+      "CLAslopeTripEn": false,
+      "CLAslopeTrip": 0,
+      "P2PaccelTripEn": false,
+      "P2PaccelTrip": 0,
+      "P2PslopeTripEn": false,
+      "P2PslopeTrip": 0,
+      "wearTripEn": false,
+      "wearTrip": 0,
+      "lowTorqueTripEn": false,
+      "lowTorqueTrip": 0
+    },
+    {
+      "stepType": "Suspend",
+      "stepName": "Suspend step",
+      "stepText": "Test suspended chaps!"
+    }
+  ]
+}
