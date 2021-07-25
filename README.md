@@ -8,7 +8,7 @@ You could use this code to:
 * Bulk-edit profile files for parameter sweeps or to match conditions between samples/fluids
 
 ## Why JSON?
-JSON is both human-readable (you can open it in Notepad) and machine-readable. **An example JSON file is provided.**
+JSON (JavaScript Object Notation) is both human-readable (you can open it in Notepad) and machine-readable. **An example JSON file is provided.**
 
 A minimal working JSON file takes the following form:
 ```
@@ -29,7 +29,7 @@ A minimal working JSON file takes the following form:
 
 ## Notes
 1. The scripts are written in MATLAB 2021a, and will work if you just open them in MATLAB and press Run. They can also be used as functions in your own script to create more complex profile files.
-2. JSON files must contain at least all of the parameters listed under the relevant step(s) in the jsonExample.json file. Any parameters with names other than these are ignored by the scripts, but may be useful for your records, e.g. storing the results of film thickness calculations.
+2. JSON files must contain at least all of the parameters listed under the relevant step(s) in the `jsonExample.json` file. Any parameters with names other than these are ignored by the scripts, but may be useful for your records, e.g. storing the results of film thickness calculations.
 3. If anything goes wrong, let me know! dam216@ic.ac.uk
 
 #### Author
