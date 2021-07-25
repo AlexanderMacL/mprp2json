@@ -18,7 +18,7 @@ FatigueTemplate.stepName = '';
 % Temperature control parameters
 FatigueTemplate.tempCtrlEn = true;
 FatigueTemplate.waitForTempBeforeStep = true;
-FatigueTemplate.idleSpeed = 1000;
+FatigueTemplate.idleSpeed = 1.0;
 FatigueTemplate.idleSRR = 0;
 FatigueTemplate.idleLoad = 0;
 FatigueTemplate.coolerEn = true;
@@ -30,8 +30,8 @@ FatigueTemplate.startTemp = 0;
 FatigueTemplate.endTemp = 0;
 FatigueTemplate.startLoad = 250;
 FatigueTemplate.endLoad = 250;
-FatigueTemplate.startSpeed = 1000;
-FatigueTemplate.endSpeed = 1000;
+FatigueTemplate.startSpeed = 1.0;
+FatigueTemplate.endSpeed = 1.0;
 FatigueTemplate.startSRR = -10;
 FatigueTemplate.endSRR = -10;
 % Trip parameters
